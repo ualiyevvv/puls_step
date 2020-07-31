@@ -1,0 +1,30 @@
+.button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: $main-color; 
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;  
+    border: none;
+    &:focus{
+        outline: none;
+    };
+    &:hover {
+        background-color: $sec-color;
+    }
+};
+@media (max-width:991px){
+    
+};
+@media (max-width:767px){
+    .button {
+        font-size: 14px;
+    }; 
+};
+@media (max-width:575px){
+    .button {
+        font-size: 14px;
+    };
+};

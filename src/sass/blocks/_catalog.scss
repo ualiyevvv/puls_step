@@ -1,0 +1,101 @@
+.catalog {
+    padding: 81px 0 103px 0;
+    .title {
+        margin-top: 82px;
+    };
+    &__types {
+        display: flex;
+        margin: 70px 0 0 0;
+        justify-content: center;
+        padding: 0;
+    };
+    &__type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        width: 220px;
+        height: 50px;
+        transform: skew(-15deg);
+        border: 2px solid #d0d0d0;
+        cursor: pointer;
+        transition: 0.2s all;
+        & span{
+            color: #6b6b6b;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            transform: skew(15deg);
+            text-align: center;
+        };
+        &_active{
+            background-color: $main-color;
+            border: none;
+            & span{
+                color: #ffff;
+            };
+        };
+        
+    }; 
+    &__wrapper {
+        min-width: 940px;
+        display: none;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        &_active {
+            display: flex;
+        };
+    };
+}
+@media (min-width: 992px) {
+    .catalog {
+        &__type:hover {  
+            width: 226px;
+            box-shadow: 3px 3px 20px #c70101;
+            border: none;
+        };
+    }
+};
+@media (max-width:991px){
+    .catalog {
+        &__wrapper {
+            min-width: 768px;
+            justify-content: space-evenly;
+        };
+        &__type {
+            padding: 0 25px;
+            & span{
+                font-size: 16px;
+            };
+        };
+    }
+};
+@media (max-width:767px){
+    .catalog {
+        &__wrapper {
+            min-width: 576px;
+            margin-top: 36px;
+            justify-content: space-evenly;
+        };
+    };
+    
+};
+@media (max-width:575px){
+    .catalog {
+        &__types {
+            margin-top: 35px;
+        };
+        &__type {
+            width: 90px;
+            & span{
+                font-size: 14px;
+            };
+        };
+        &__wrapper {
+            min-width: 320px;
+            justify-content: center;
+            margin-top: 5px;
+        };
+    };
+};

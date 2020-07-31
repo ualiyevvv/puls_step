@@ -1,0 +1,33 @@
+.advantages {
+    min-height: 472px;
+    padding: 70px 0 80px 0;
+    background-color: #f6f6f6;
+    &__wrapper {
+        min-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 60px;
+    };
+};
+@media (max-width:991px){
+    .advantages {
+        &__wrapper {
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0 90px;
+        };
+    }
+};
+@media (max-width:767px){
+    
+};
+@media (max-width:575px){
+    .advantages {
+        &__wrapper {
+            padding: 0 58px;
+        };
+    }    
+};
+
+    

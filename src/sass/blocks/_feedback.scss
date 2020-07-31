@@ -1,0 +1,28 @@
+.feedback {
+    min-height: 876px;
+    padding: 0 0 71px 0;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    &__wrapper {
+        margin-top: 70px;
+    }
+};
+@media (max-width:991px){
+    .feedback {
+        margin-top: 0;
+        &__wrapper {
+            padding: 0 25px;            
+        };
+    }
+};
+@media (max-width:767px){
+    
+};
+@media (max-width:575px){
+    .feedback {
+        &__wrapper {
+            margin-top: 50px;
+        }
+    };    
+};
