@@ -10,7 +10,7 @@
         margin-top: 60px;
     };
 };
-@media (max-width:991px){
+@media (max-width:992px){
     .advantages {
         &__wrapper {
             justify-content: center;
@@ -19,14 +19,46 @@
         };
     }
 };
-@media (max-width:767px){
+@media (max-width:768px){
     
 };
-@media (max-width:575px){
+@media (max-width:576px){
     .advantages {
+        padding: 44px 0 80px 0;
         &__wrapper {
-            padding: 0 58px;
+            padding: 0 19px;
+            margin-top: 40px;
         };
+        .catblock {
+            &__header {
+                margin-top: 20px;
+            };
+            &__descr {
+                margin-top: 13px;
+            };
+            &__item {
+                position: relative;
+                min-width: 300px;
+                min-height: 440px;
+                padding: 20px 20px 27px 20px;
+                margin-top: 20px;
+                border: 2px solid #e8e8e8;
+                overflow: hidden;
+                margin-right: 20px;
+                &:nth-child(3n) {
+                    margin-right: 0;
+                };
+                &-wrapper {
+                    display: flex;
+                    width: calc(200% + 40px);
+                    padding-bottom: 30px;
+                };
+            };
+        };
+        .mbs {
+            margin-bottom: 34px;
+        };
+        
     }    
 };
 

@@ -70,7 +70,7 @@
 
     };
 }
-@media (max-width:991px){
+@media (max-width:992px){
     .promo {
         &__wrapper {
             margin-right: 25px;
@@ -97,12 +97,12 @@
         display: none;
     }
 };
-@media (max-width:767px){
+@media (max-width:768px){
     .menu {
         display: fixed;
     }
 };
-@media (max-width:575px){
+@media (max-width:576px){
     .promo {
         min-height: 550px;
         padding: 0;
@@ -111,7 +111,7 @@
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-            padding: 99px 5px 0 5px;
+            padding: 30px 5px 0 5px;
             margin-right: 0;
         };
         &__header {

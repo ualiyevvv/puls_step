@@ -32,11 +32,12 @@
     } 
 };
 
+@import 'blocks/menu';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
-@import 'blocks/advantages';
 @import 'blocks/catblock';
+@import 'blocks/advantages';
 @import 'blocks/service';
 @import 'forms/consultation';
 @import 'blocks/catalog';
@@ -44,3 +45,4 @@
 @import 'blocks/feedback';
 @import 'blocks/feedblock';
 @import 'blocks/contacts';
+@import 'blocks/modal';

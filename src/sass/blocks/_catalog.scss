@@ -57,7 +57,7 @@
         };
     }
 };
-@media (max-width:991px){
+@media (max-width:992px){
     .catalog {
         &__wrapper {
             min-width: 768px;
@@ -71,7 +71,7 @@
         };
     }
 };
-@media (max-width:767px){
+@media (max-width:768px){
     .catalog {
         &__wrapper {
             min-width: 576px;
@@ -81,7 +81,7 @@
     };
     
 };
-@media (max-width:575px){
+@media (max-width:576px){
     .catalog {
         &__types {
             margin-top: 35px;
